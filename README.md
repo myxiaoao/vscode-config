@@ -22,7 +22,8 @@
     "phpfmt.enable_auto_align": true,
     "editor.formatOnSave": true,
     "phpfmt.php_bin": "/usr/bin/php",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.wordWrap": "on"
 }
 ```
 
