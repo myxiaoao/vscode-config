@@ -18,12 +18,21 @@
     "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontWeight": "500",
     "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "workbench.iconTheme": "material-icon-theme",
     "phpfmt.enable_auto_align": true,
     "editor.formatOnSave": true,
     "phpfmt.php_bin": "/usr/bin/php",
     "workbench.startupEditor": "newUntitledFile",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "php-docblocker.gap": false,
+    "php-docblocker.qualifyClassNames": true,
+    "php-docblocker.author": {
+        "name": "Cooper",
+        "email": "myxiaoao@gmail.com"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    }
 }
 ```
 
@@ -31,20 +40,22 @@
 
 ### Basic
 * [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
-* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 * [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+* [Better Align](https://marketplace.visualstudio.com/items?itemName=wwm.better-align)
 
 ### Theme
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 * [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 
 ### PHP
+* [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
-* [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
 * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
 * [phpfmt - PHP formatter](https://marketplace.visualstudio.com/items?itemName=kokororin.vscode-phpfmt)
+* [PHP Snippets from PHPStorm](https://marketplace.visualstudio.com/items?itemName=phiter.phpstorm-snippets)
 * [Laravel 5 Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
 * [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
 * [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
